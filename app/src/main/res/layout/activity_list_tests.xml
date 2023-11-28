@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListTestsActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="211dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/sheremetevo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/menuButton2"
+        android:layout_width="78dp"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_menu"
+        app:layout_constraintBottom_toTopOf="@+id/upperLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/upperLine"
+        android:layout_width="412dp"
+        android:layout_height="33dp"
+        android:background="@color/purple_500"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottomLine"
+        android:layout_width="412dp"
+        android:layout_height="33dp"
+        android:background="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="383dp"
+        android:layout_height="529dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upperLine">
+
+        <TextView
+            android:id="@+id/menuHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Выберите тест"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/lulkaButton"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/menuHeader"
+            app:srcCompat="@drawable/ic_lulka" />
+
+        <ImageButton
+            android:id="@+id/sosudiButton"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintStart_toEndOf="@+id/lulkaButton"
+            app:layout_constraintTop_toBottomOf="@+id/menuHeader"
+            app:srcCompat="@drawable/ic_sosydi" />
+
+        <ImageButton
+            android:id="@+id/electroButton"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lulkaButton"
+            app:srcCompat="@drawable/ic_electro" />
+
+        <ImageButton
+            android:id="@+id/vysotaButton"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintStart_toEndOf="@+id/electroButton"
+            app:layout_constraintTop_toBottomOf="@+id/sosudiButton"
+            app:srcCompat="@drawable/ic_vysota" />
+
+        <ImageButton
+            android:id="@+id/podemButton"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/electroButton"
+            app:srcCompat="@drawable/ic_podem" />
+
+        <ImageButton
+            android:id="@+id/nazemkaButton"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/rounded_edittext"
+            app:layout_constraintStart_toEndOf="@+id/podemButton"
+            app:layout_constraintTop_toBottomOf="@+id/vysotaButton"
+            app:srcCompat="@drawable/ic_nazemka" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

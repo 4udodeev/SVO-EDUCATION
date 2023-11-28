@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_baseline_2k_24.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_electro.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_handling.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5435" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_lulka.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_nazemka.xml" value="0.1" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_podem.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_sheremetevo.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_sosudi.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/ic_vysota.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/margin_color_text.xml" value="0.4815" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/rounded_button.xml" value="0.415" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/rounded_edittext.xml" value="0.371" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/rounded_grey.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/drawable/title_person.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/layout/activity_finish_window.xml" value="0.4006069802731411" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/layout/activity_list_tests.xml" value="0.3432971014492754" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/layout/activity_main.xml" value="0.3432971014492754" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/layout/activity_question_comment.xml" value="0.19609665427509293" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/layout/activity_singup.xml" value="0.3432971014492754" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/layout/activity_tests.xml" value="0.3763586956521739" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/layout/activity_welcome_window.xml" value="0.4006069802731411" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.232" />
+        <entry key="..\:/AndroidApps/SVO_education/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.232" />
+        <entry key="..\:/GIT/SVO_education/app/src/main/res/layout/activity_signup.xml" value="0.33860759493670883" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
